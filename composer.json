@@ -1,5 +1,5 @@
 {
-    "name": "TaiwanPay/CHBPayment",
+    "name": "taiwan-pay/chb-payment",
     "description": "Payment library for CHB bank in Taiwan.",
     "type": "library",
     "license": "MIT",

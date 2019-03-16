@@ -6,7 +6,7 @@ Payment library for CHB bank in Taiwan. It use simply web api for CHB bank.
 
 # Install
 ```BASH
-$ composer require taiwanpay/chbpayment
+$ composer require taiwan-pay/chb-payment
 ```
 
 # Usage
