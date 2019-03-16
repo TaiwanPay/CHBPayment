@@ -27,7 +27,7 @@ class CHBPaymentTest extends TestCase
             'MerchantID' => $MerchantID,
             'TerminalID' => $TerminalID,
             'MerchantName' => $MerchantName
-        ], false, 0);
+        ], false);
         $orderNumber = $this->randomString(10, $this->sourceNumber . $this->sourceUpperAlphabet);
         $amount = 100;
         $type = $payment::AUTH_NORMAL;
@@ -73,7 +73,7 @@ class CHBPaymentTest extends TestCase
             'MerchantID' => $MerchantID,
             'TerminalID' => $TerminalID,
             'MerchantName' => $MerchantName
-        ], false, 0);
+        ], false);
         $orderNumber = $this->randomString(10, $this->sourceNumber . $this->sourceUpperAlphabet);
         $amount = 100;
         $resUrl = 'http://localhost/test';
