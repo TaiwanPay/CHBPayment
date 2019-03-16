@@ -54,7 +54,7 @@ class TestCase extends BaseTestCase
         $random = 0;
         $result = '';
         for ($i=0; $i<$length; $i++) {
-            $random = rand(0, $sourceLength);
+            $random = rand(0, $sourceLength - 1);
             $result .= $source[$random];
         }
         return $result;
