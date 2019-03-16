@@ -1,4 +1,7 @@
 # CHBPayment
+[![Build Status](https://travis-ci.org/TaiwanPay/CHBPayment.svg?branch=master)](https://travis-ci.org/TaiwanPay/CHBPayment)
+[![codecov](https://codecov.io/gh/TaiwanPay/CHBPayment/branch/master/graph/badge.svg)](https://codecov.io/gh/TaiwanPay/CHBPayment)
+
 Payment library for CHB bank in Taiwan. It use simply web api for CHB bank.
 
 # Install
